@@ -73,9 +73,6 @@ h6 {
   padding: 30px 0 30px 0;
   margin-bottom: 30px;
 }
-.modal-content .modal-body section.modal-img-wbg h3 {
-  color: #fff;
-}
 .modal-content .modal-body section.modal-img-wbg ul.special-list {
   color: #fff;
   font-size: 18px;
@@ -173,7 +170,7 @@ fieldset[disabled] .btn-primary.active {
   border-radius: 3px;
   font-size: 18px;
   padding: 20px 40px;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 .btn-xl:hover,
 .btn-xl:focus,
@@ -870,6 +867,11 @@ ul.social-buttons li a:active {
   max-width: 600px;
   max-height: 50px;
 }
+.portfolio-modal .modal-content ul.highlighted-list {
+  margin: 0 auto;
+  max-width: 650px;
+  width: 75%;
+}
 .portfolio-modal .modal-content ul.highlighted-list li {
   font-size: 18px;
   line-height: 2;
@@ -888,11 +890,23 @@ ul.social-buttons li a:active {
   font-size: 18px;
   text-align: left;
 }
+.portfolio-modal .modal-content ol.order-list li h6 {
+  font-size: 16px;
+  text-align: left;
+}
 .portfolio-modal .modal-content ol.order-list li p {
   font-weight: normal;
   font-size: 16px;
   width: 100%;
   max-width: auto;
+}
+.portfolio-modal .modal-content ol.sub-list {
+  text-align: left;
+  margin: 0 auto;
+}
+.portfolio-modal .modal-content ol.sub-list li {
+  font-weight: normal;
+  font-size: 16px;
 }
 .portfolio-modal .modal-content ol.normal li {
   font-weight: normal;
@@ -996,48 +1010,6 @@ ul.social-buttons li a:active {
 }
 .red-orange h3,
 .red-orange p {
-  color: #fff;
-}
-.aubergine {
-  background: -webkit-linear-gradient(0deg, #aa076b 10%, #61045f 90%);
-  /* Chrome 10+, Saf5.1+ */
-
-  background: -moz-linear-gradient(0deg, #aa076b 10%, #61045f 90%);
-  /* FF3.6+ */
-
-  background: -ms-linear-gradient(0deg, #aa076b 10%, #61045f 90%);
-  /* IE10 */
-
-  background: -o-linear-gradient(0deg, #aa076b 10%, #61045f 90%);
-  /* Opera 11.10+ */
-
-  background: linear-gradient(0deg, #aa076b 10%, #61045f 90%);
-  /* W3C */
-
-}
-.aubergine h3,
-.aubergine p {
-  color: #fff;
-}
-.aubergine-reverse {
-  background: -webkit-linear-gradient(180deg, #aa076b 10%, #61045f 90%);
-  /* Chrome 10+, Saf5.1+ */
-
-  background: -moz-linear-gradient(180deg, #aa076b 10%, #61045f 90%);
-  /* FF3.6+ */
-
-  background: -ms-linear-gradient(180deg, #aa076b 10%, #61045f 90%);
-  /* IE10 */
-
-  background: -o-linear-gradient(180deg, #aa076b 10%, #61045f 90%);
-  /* Opera 11.10+ */
-
-  background: linear-gradient(180deg, #aa076b 10%, #61045f 90%);
-  /* W3C */
-
-}
-.aubergine-reverse h3,
-.aubergine-reverse p {
   color: #fff;
 }
 body {
