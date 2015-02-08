@@ -189,6 +189,15 @@ figcaption span {
   color: #dfdfdf;
   text-align: center;
 }
+#w-img-bg {
+  background: #fff;
+}
+#w-img-bg .centered {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
 .carousel .carousel-indicators {
   bottom: -40px;
 }
@@ -228,6 +237,11 @@ figcaption span {
 .modal-slider .modal-content .carousel .carousel-inner > .item > img,
 .modal-slider .modal-content .carousel .carousel-inner > .item > a > img {
   margin: 0 auto;
+  text-align: center;
+}
+h4.special-border {
+  border: 1px dashed #333;
+  padding: 10px;
   text-align: center;
 }
 @media screen and (max-width: 480px) {
