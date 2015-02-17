@@ -634,6 +634,29 @@ ul.order-list {
   padding: 0;
 }
 
+.pageload-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.pageload-overlay.show {
+    visibility: visible;
+}
+
+.pageload-overlay svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.pageload-overlay svg path {
+    fill: #fff;
+}
+
 @media screen and (min-width: 788px) {
   #dg {
     .desc-a {
