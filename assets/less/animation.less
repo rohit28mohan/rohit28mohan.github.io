@@ -1,0 +1,236 @@
+@import "variables.less";
+@import "mixins.less";
+
+div.dot:nth-child(1) {
+  -webkit-animation: stripShine 3.5s 0s ease-in infinite;
+  -moz-animation: stripShine 3.5s 0s ease-in infinite;
+  -o-animation: stripShine 3.5s 0s ease-in infinite;
+  animation: stripShine 3.5s 0s ease-in infinite; }
+
+ div.dot:nth-child(2) {
+  -webkit-animation: dotMove 3.5s 0s ease-in infinite;
+  -moz-animation: dotMove 3.5s 0s ease-in infinite;
+  -o-animation: dotMove 3.5s 0s ease-in infinite;
+  animation: dotMove 3.5s 0s ease-in infinite; }
+
+
+@media only screen and (max-width: 580px) {
+     div#scroll-line {
+      height: 10%; } }
+
+
+
+@-webkit-keyframes stripShine {
+  0% {
+    width: 0px;
+    height: 0px;
+    left: 2px;
+    top: 2px;
+    .opacity(0); }
+
+  30% {
+    width: 0px;
+    height: 0px;
+    top: 0px;
+    left: 0px;
+    .opacity(1); }
+
+  80% {
+    width: 1px;
+    height: 1px;
+    top: 0px;
+    left: 0px;
+    .opacity(1); }
+
+  100% {
+    top: 0%;
+    width: 1px;
+    height: 200%;
+    left: 0px;
+    .opacity(0); } }
+@-moz-keyframes stripShine {
+  0% {
+    width: 0px;
+    height: 0px;
+    left: 2px;
+    top: 2px;
+    .opacity(0); }
+
+  30% {
+    width: 0px;
+    height: 0px;
+    top: 0px;
+    left: 0px;
+    .opacity(1); }
+
+  80% {
+    width: 1px;
+    height: 1px;
+    top: 0px;
+    left: 0px;
+    .opacity(1); }
+
+  100% {
+    top: 0%;
+    width: 1px;
+    height: 200%;
+    left: 0px;
+    .opacity(0); } }
+@-o-keyframes stripShine {
+  0% {
+    width: 0px;
+    height: 0px;
+    left: 2px;
+    top: 2px;
+    .opacity(0);}
+
+  30% {
+    width: 0px;
+    height: 0px;
+    top: 0px;
+    left: 0px;
+    .opacity(1); }
+
+  80% {
+    width: 1px;
+    height: 1px;
+    top: 0px;
+    left: 0px;
+    .opacity(1); }
+
+  100% {
+    top: 0%;
+    width: 1px;
+    height: 200%;
+    left: 0px;
+    .opacity(0); } }
+
+@keyframes stripShine {
+  0% {
+    width: 0px;
+    height: 0px;
+    left: 2px;
+    top: 2px;
+    .opacity(0); }
+
+  30% {
+    width: 0px;
+    height: 0px;
+    top: 0px;
+    left: 0px;
+    .opacity(1);}
+
+  80% {
+    width: 1px;
+    height: 1px;
+    top: 0px;
+    left: 0px;
+    .opacity(1); }
+
+  100% {
+    top: 0%;
+    width: 1px;
+    height: 200%;
+    left: 0px;
+    .opacity(0);} }
+
+@-webkit-keyframes dotMove {
+  0% {
+    width: 3px;
+    height: 3px;
+    left: -1px;
+    top: -3px;
+    .opacity(0); }
+
+  40% {
+    width: 3px;
+    height: 3px;
+    top: -3px;
+    left: -1px;
+    .opacity(1); }
+
+  80% {
+    width: 3px;
+    height: 3px;
+    top: -3px;
+    left: -1px;
+    .opacity(1);}
+
+  100% {
+    top: 200%;
+    .opacity(0); } }
+@-moz-keyframes dotMove {
+  0% {
+    width: 3px;
+    height: 3px;
+    left: -1px;
+    top: -3px;
+    .opacity(0); }
+
+  40% {
+    width: 3px;
+    height: 3px;
+    top: -3px;
+    left: -1px;
+    .opacity(1); }
+
+  80% {
+    width: 3px;
+    height: 3px;
+    top: -3px;
+    left: -1px;
+    .opacity(1); }
+
+  100% {
+    top: 200%;
+    .opacity(0); } }
+@-o-keyframes dotMove {
+  0% {
+    width: 3px;
+    height: 3px;
+    left: -1px;
+    top: -3px;
+    .opacity(0);}
+
+  40% {
+    width: 3px;
+    height: 3px;
+    top: -3px;
+    left: -1px;
+    .opacity(1); }
+
+  80% {
+    width: 3px;
+    height: 3px;
+    top: -3px;
+    left: -1px;
+    .opacity(1); }
+
+  100% {
+    top: 200%;
+    .opacity(0); } }
+@keyframes dotMove {
+  0% {
+    width: 3px;
+    height: 3px;
+    left: -1px;
+    top: -3px;
+    .opacity(0); }
+
+  40% {
+    width: 3px;
+    height: 3px;
+    top: -3px;
+    left: -1px;
+    .opacity(1);}
+
+  80% {
+    width: 3px;
+    height: 3px;
+    top: -3px;
+    left: -1px;
+    .opacity(1); }
+
+  100% {
+    top: 200%;
+    .opacity(0);} }
