@@ -14,9 +14,12 @@
 
     <!-- Custom styles for this template -->
   <link href="assets/css/main.css" rel="stylesheet">
-  <link href="assets/css/inner.css" rel="stylesheet">
-  <link href="assets/css/animate.css" rel="stylesheet">
-  <link href="assets/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <noscript id="deferred-styles">
+    <link href="assets/css/inner.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/animation.css" rel="stylesheet">
+    <link href="assets/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  </noscript>
   
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -242,5 +245,19 @@
   mixpanel.init("7a4931a7e5d755c06d0a517b046261fc");</script><!-- end Mixpanel -->
     <script src="https://use.typekit.net/sys4vol.js"></script>
     <script defer>try{Typekit.load({ async: true });}catch(e){}</script>
+    
+    <script async>
+      var loadDeferredStyles = function() {
+        var addStylesNode = document.getElementById("deferred-styles");
+        var replacement = document.createElement("div");
+        replacement.innerHTML = addStylesNode.textContent;
+        document.body.appendChild(replacement)
+        addStylesNode.parentElement.removeChild(addStylesNode);
+      };
+      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+          webkitRequestAnimationFrame || msRequestAnimationFrame;
+      if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+      else window.addEventListener('load', loadDeferredStyles);
+    </script>
   </body>
 </html>
