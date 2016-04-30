@@ -18,6 +18,8 @@ h1, h2, h3, h4, h5, h6 {
 p {
     line-height: 28px;
     margin-bottom: 25px;
+    font-size: 20px;
+    line-height: 1.6;
 }
 .centered {
     text-align: center;
@@ -94,15 +96,15 @@ hr {
     h1 {
         color: #fff;
         font-size: 40px;
-        font-weight: 200;
+        font-weight: bold;
         letter-spacing: 0.12em;
         text-transform: uppercase;
     }
     h2 {
-        .body-font;
+        .heading-font;
         color: #bbb;
         font-size: 21px;
-        font-weight: 100;
+        font-weight: light;
         letter-spacing: 0.08em;
         margin-top: 10px;
     }
@@ -219,6 +221,7 @@ hr {
     h3 {
         color: #333;
         padding-bottom: 50px;
+        font-weight: bold;
     }
     figure {
         margin: 0;
@@ -305,9 +308,10 @@ hr {
                     font-size: 18px;
                     line-height: 150%;
                     padding: 0 0 10px 0;
+                    font-weight:  bold;
                     a {
                         color: #717171;
-                        font-weight: 200;
+                        font-weight: bold;
                         &:hover{
                             color: #f85c37;
                         }
@@ -318,6 +322,7 @@ hr {
                     line-height: 22px;
                     margin: 0;
                     padding: 0;
+                    .heading-font;
                 }
             }
         }
@@ -349,9 +354,15 @@ hr {
     padding-bottom: 35px;
     text-align: center;
     h3 {
+        .heading-font;
         text-transform: uppercase;
         padding-bottom: 30px;
+        font-weight: bold;
     }
+  h4 {
+    .heading-font;
+    font-weight: bold;
+  }
 }
 
 
@@ -362,10 +373,19 @@ hr {
     text-align: center;
     h3 {
         padding-bottom: 30px;
+        .heading-font;
+        font-weight: bold;
     }
     .skills-icon {
         width: 120px;
     }
+  h4 {
+      font-weight: bold;
+  }
+  p {
+    .heading-font;
+    font-size: 1em;
+  }
 }
 #f {
     background: #2f2f2f;
@@ -454,6 +474,7 @@ hr {
         max-width: 160px;
     }
     a {
+        .heading-font;
         margin-left: 20px;
         color: #808080;
         display: block;
@@ -601,7 +622,7 @@ p.qod-text {
     color: #fff;
     border: 1px solid #fff;
     .border-radius(5px);
-    .body-font();
+    .heading-font();
     font-size: 17px;
     letter-spacing: 0.15em;
     margin-top: 10px;
@@ -641,6 +662,7 @@ hr.gray {
 
 ol.order-list {
   padding: 20px 30px;
+  .heading-font;
   h4 {
     font-size: 18px !important;
     margin-bottom: 20px !important;
@@ -652,6 +674,7 @@ ol.order-list {
   font-weight: 700;
   li {
     padding-bottom: 12px;
+    font-weight: 400;
   }
 }
 
@@ -675,6 +698,9 @@ ul.order-list {
 .left {
   p {
     text-align: left;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #4c4c4c;
   }
   h4 {
     text-align: left;
