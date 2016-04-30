@@ -232,8 +232,14 @@ hr {
             z-index: 0;
             img {
                 .border-radiuses(3px,0,0,3px);
-                display: block;
-                max-width: 100%;
+                display: inline-block;
+                width: 100%;
+                background: center center url(../img/preloader.gif) #fff no-repeat;
+                min-height: 48px;
+                min-width: 48px;
+                height: 252px;
+                text-align: center;
+                
             }
             a {
                 .icn-more {
@@ -362,6 +368,12 @@ hr {
   h4 {
     .heading-font;
     font-weight: bold;
+  }
+  img.centered {
+    min-height: 48px;
+    min-width: 48px;
+    text-align: center;
+    width: auto;
   }
 }
 
