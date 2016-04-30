@@ -231,15 +231,13 @@ mixpanel.init("7a4931a7e5d755c06d0a517b046261fc");</script><!-- end Mixpanel -->
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-      <script src="assets/js/classie.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-      <script src="assets/js/main.js"></script>
-      <script>
-      $('.carousel').carousel({
-        interval: 5500
-      })
-      </script>
-      <script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script async src="assets/js/Chart.js"></script>
+    <script async src="assets/js/classie.js"></script>
+    <script async src="assets/js/bootstrap.min.js"></script>
+    <script defer src="assets/js/smoothscroll.js"></script>
+    <script async src="assets/js/main.js"></script>
+    <script async>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -247,9 +245,11 @@ mixpanel.init("7a4931a7e5d755c06d0a517b046261fc");</script><!-- end Mixpanel -->
 
       ga('create', 'UA-59830290-1', 'auto');
       ga('send', 'pageview');
-
     </script>
-    <script async src="https://use.typekit.net/sys4vol.js"></script>
-    <script async>try{Typekit.load({ async: true });}catch(e){}</script>
+    <!-- start Mixpanel --><script async type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+  for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);
+  mixpanel.init("7a4931a7e5d755c06d0a517b046261fc");</script><!-- end Mixpanel -->
+    <script src="https://use.typekit.net/sys4vol.js"></script>
+    <script defer>try{Typekit.load({ async: true });}catch(e){}</script>
   </body>
 </html>
