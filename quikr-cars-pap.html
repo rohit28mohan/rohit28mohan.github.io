@@ -68,7 +68,8 @@
         <h3>Quikr Cars Post Ad</h3>
         <div class="col-lg-7 desc">
           <h4>About This Project</h4>
-          <p>Our post-ad pages are place where user would place their used vehicles on the platform. We currently had a separate desktop and mobile experiences. The process was iterative ones and we did usability test and conducted user interviews in each cycle to come to the best possible solution.</p>
+          <p>Our post-ad pages are place where user would place their used vehicles on the platform. We currently had a separate desktop and mobile experiences. The process was iterative ones and we did usability test and conducted user interviews in each cycle to come to the best possible solution. I have broken the flow in design in Desktop and msite to highlight the design process.
+          </p>
           
         </div>
         <div class="col-lg-5 desc desc-b">
@@ -89,22 +90,15 @@
   <div id="dg">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 left">
+        <div class="col-lg-8 col-lg-offset-2 col-xs-12 left">
+          <h3>Mobile first approach</h3>
+          <p>Before proceeding further I would like to elaborate that we initially had a separate mobile site(msite) and desktop flow. Desktop was largely better performing than msite but as we had witnessed a gradual but steady increase in out msite traffic hence we needed to focus on the shifting pattern.</p>
           <h4>Status Quo</h4>
-          <p>As mentioned earlier our current <strong>Post AD</strong><small> (Flow to list your car to platform)</small> was a generic single page form that catered all categories. And to keep the conversions up most of the fields we non-mandatory which for specfic categories was either crucial or not helpful. As we wanted to maker a better UX for car buyers we wanted to provide hima better information. So the custom form was bloated in the process, also there were some information we didn't need but as they were mandatory we weren't able to remove them.</p>
-          
-          <img src="assets/img/quikr-postad/oldpap.jpg" class="centered" alt="Old Quikr Cars Post Ad"/>
-          <figcaption>
-            <span><i class="fa fa-file-image-o"></i>Old Post Ad in Cars(still being used in other categories)</span>
-          </figcaption><br><br>
-          
-          <h4>M-site Flow</h4>
-          <p>Our mobile flow was broken in 3 steps: image upload followed by user details and car details </p>
           <img src="assets/img/quikr-postad/old-pap-msite.jpg" class="centered" alt="Old Quikr Cars Post Ad"/>
           <figcaption>
             <span><i class="fa fa-file-image-o"></i>Old post ad in Mobile view</span>
           </figcaption><br><br>
-          
+          <p>Our mobile flow was broken in 3 steps: <b>image upload</b> followed by <b>user details</b> and <b>car details</b>. There was a significant dropoff in each steps and as a result the overall conversion was poor. A lot of information asked was not required and some were outright obvious and due to some legacy reasons they were kept.</p>
           <h4>Evaluation of current page</h4>
           <ol class="pointers">
             <li>Using unnecessary fields in the page</li>
@@ -113,53 +107,74 @@
             <li>Mobile method was heavily unoptimized</li>
             <li>Error handling was irritating</li>
           </ol>
-          
-          <h5>Other Design Issues</h5>
-          <p>In terms of design the approach was very old, we used dropdown almost everywhere even when there were less than 4 options. Also we had dropdown to select from a list, for example to select a location of your car which was a 70 odd list with no filtering.</p>
-          
-          <p>The process was too long plus we were asking too many unnecessary questions. In most cases in India if the know the car's brand model one can asecertain the options such as fuel type, transmission (hardly any pre-2005 cars on platform had automatic transmission).</p>
-          
         </div>
       </div>
-    </div><!-- /container -->
-  </div><!-- /g -->
+    </div>
+  </div>
     
-    
-  <div id="dg">
+  <div id="g">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 left">
-          <h4>Deep Dive</h4>
-          <p>In our initial user research we called up ad posters who faced issuse while posting ad. We also listened to calls of </p>
-          <h5>User Groups</h5>
-          <section class="row">
-            <div class="col-xs-12 col-md-6">
-              <b>Individuals</b>
-              <ul class="pointers">
-                <li>Mainly to sell cars </li>
-                <li>First Time Users</li>
-                <li>Private Indiduval use their mobile to list their cars(First time visitos)</li>
-                <li>These guys </li>
-              </ul>
-
-            </div>
-            <div class="col-xs-12 col-md-6">
-              <b>Business Individuals</b>
-              <ul class="pointers">
-                <li>Sell cars at right price</li>
-                <li>Post via Desktop/mobile app (Frequent visitors)</li>
-                <li></li>
-              </ul>
-            </div>
-          </section>
-    
-          <p>City wise also there a trend, Metros and bigger towns had users with <b>better bandwidth and users</b> in smaller towns had poor network connection. </p>
-          <p>Due to better bandwidth the desktop users had higher conversion rates. Our desktop users were mainly posting from their home or office. Also as a significant section were Used Vehicle Dealers, they had posted their vehicles on platform a multiple times and </p>
+        <div class="col-xs-12">
+          <h3>User Research</h3>
+          <div class="col-lg-8 col-lg-offset-2 col-xs-12 left">
+            <p>As mentioned before we already have a generic flow that caters from Real-estate, jobs, cars and pets. It began with a simple craiglist like approach but soon balloned into a giant single page form.</p>
+            <p> Our initial user reseach was limited to <b>usability evalutaion</b> by fellow designers of the current flow and <b>user interviews</b>(telephonic) of users who either uploaded or tried listing their cars on platform. This helped us determine the current set of issues users are currently facing. Later on I started listening customer care calls to find issues  </p>
+            <img src="assets/img/quikr-postad/user-classification-2x.jpg" class="centered" alt="Old Quikr Cars Post Ad"/>
+            <figcaption>
+              <span><i class="fa fa-file-image-o"></i>Who all users our mobile post ad</span>
+            </figcaption><br/>
+            <p>In the redesign we were more <em>focussed on Individual sellers</em> as they were facing the main issues and there were other method(via CMS tool) from which they can list their cars. Also car dealers were listing vehicles via android/iOS app or via Desktop. Also whatever improvements we make here would be passed to car/bike dealers.</p>
+            <p>In India, a lot of folks have mobile as the <b>primary device</b> to connect to browse the web and hence the mobile users were distributed all across; significant car sellers are from <b>smaller cities or towns</b>.</p>
+          </div>
+          <div class="col-lg-10 col-lg-offset-1 col-xs-12 left">
+            <img  src="assets/img/quikr-postad/user-persona-bike-2x.jpg" class="centered" alt="User persona of bike seller at Quikr"/>
+            <figcaption>
+              <span><i class="fa fa-file-image-o"></i>User persona of bike seller at Quikr</span>
+            </figcaption><br/>
+          </div>
+          <div class="col-lg-8 col-lg-offset-2 col-xs-12 left">
+            
+          </div>
         </div>
       </div>
     </div>
   </div>
   
+  <div id="dg">
+    <div class="container">
+      <div class="row">
+        <section class="col-lg-8 col-lg-offset-2 col-xs-12 left">
+          <h4 class="text-left">Problems</h4>
+          <p>As mentioned earlier due to legacy issues we were using form element in a very inefficient manners</p>
+            <ul class="pointers" style="font-size: 20px; font-family: 'pt-serif',Gerogia,serif;">
+              <li>
+                <b>Information hierarchy</b> was all over the place. Post the category selection the image selection(non mandatory) box seemed strange as per information. A lot of users reach the step then leave the process as they didn't have images at the time. 
+              </li>
+              <li>
+                <b>Unnecessary fields</b> made the form longer and also difficult to fill. Legacy fields like title <b>'Ad title'</b> was doing more harm than good. But a lot of users got confused and thought for the perfect title for the car. Same could be said for car description.
+              </li>
+              <li>
+                We had a lot of <b>redundant fields</b> which were not necessary any more. Also due to legacy issues we were using incorrect UI elements for many fields. Fuel type had only 5 options yet it was a dropdown.
+              </li>
+              <li>
+                Testing the flow in real setting highlighted the <b>bandwidth issues</b> and further discussion with the customer care team highlighted the issue of bandwidth.
+              </li>
+              <li>
+                In later stages of refinement we saw that our dropoffs would be highest in the image upload section. Compound that with users on bad network and it would almost be impossible to list your vehicle.
+              </li>
+              <li>
+                The current text copy was confusing for first time users. Key amongst it was the use of word 'AD' (Post you AD, AD details etc). Users always would correlate 'AD' with a paid listing.
+              </li>
+              <li>
+                
+              </li>
+            </ul>
+        </section>
+      </div>
+    </div>  
+  </div>  
+    
   <div id="g">
     <div class="container">
       <div class="row">
@@ -181,36 +196,7 @@
       </div>
     </div>
   </div>
-    
-  <div id="dg">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <h2>MVP design</h2>
-          <img src="assets/img/quikr-postad/msite-mvp.jpg" class="centered" alt="New Desktop Layout"/>
-          <figcaption>
-            <span>
-              <i class="fa fa-file-image-o"></i>
-              Initial MVP that we launched to support our new layout
-            </span>
-          </figcaption><br>
-        </div>
-      </div>
-    </div>
-  </div>
-    
-    
-  <div id="g">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 left">
-          <h4>Iterative method</h4>
-          <p>We decided to try a progressive approach where we thought of getting all the critical imformation at once and then ask users to enrich his listing later.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-    
+  
   <div id="dg" style="background: #00171F;">
     <div class="container-fluid">
       <div class="row">
@@ -226,6 +212,29 @@
       </div>
     </div>
   </div>
+  
+  <div id="dg">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 left">
+          <h4>Status Quo</h4>
+          <p>As mentioned earlier our current <strong>Post AD</strong><small> (Flow to list your car to platform)</small> was a generic single page form that catered all categories. And to keep the conversions up most of the fields we non-mandatory which for specfic categories was either crucial or not helpful. As we wanted to maker a better UX for car buyers we wanted to provide hima better information. So the custom form was bloated in the process, also there were some information we didn't need but as they were mandatory we weren't able to remove them.</p>
+          
+          <img src="assets/img/quikr-postad/oldpap.jpg" class="centered" alt="Old Quikr Cars Post Ad"/>
+          <figcaption>
+            <span><i class="fa fa-file-image-o"></i>Old Post Ad in Cars(still being used in other categories)</span>
+          </figcaption><br><br>
+          
+          <h5>Other Design Issues</h5>
+          <p>In terms of design the approach was very old, we used dropdown almost everywhere even when there were less than 4 options. Also we had dropdown to select from a list, for example to select a location of your car which was a 70 odd list with no filtering.</p>
+          
+          <p>The process was too long plus we were asking too many unnecessary questions. In most cases in India if the know the car's brand model one can asecertain the options such as fuel type, transmission (hardly any pre-2005 cars on platform had automatic transmission).</p>
+          
+        </div>
+      </div>
+    </div><!-- /container -->
+  </div><!-- /g -->
+    
 
   <div id="dg" style="background: #4A90E2;">
     <div class="container-fluid">

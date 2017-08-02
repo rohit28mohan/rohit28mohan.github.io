@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="230px" viewBox="0 0 500 230" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="91.837843" height="169.03487"></rect>
+        <rect id="path-3" x="0" y="0" width="91.837843" height="169.03487"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="nexus" transform="translate(9.000000, 4.000000)">
+                <path d="M1.13686838e-13,206.169303 L1.13686838e-13,12.777439 C1.13686838e-13,8.38519436 3.4605564,4.25914634 7.85280107,3.72675305 C17.5689787,2.52886814 35.2710556,0.665491616 54.0379192,0.665491616 C72.6716845,0.665491616 90.2406631,2.52886814 100.089939,3.72675305 C104.482184,4.25914634 107.809642,8.38519436 107.809642,12.777439 L107.809642,206.169303 C107.809642,209.097466 105.680069,212.824219 102.885004,213.48971 C95.4314977,215.353087 79.4596989,217.881955 54.0379192,217.881955 C28.6161395,217.881955 12.6443407,215.353087 5.1908346,213.48971 C2.26267149,212.824219 1.13686838e-13,209.097466 1.13686838e-13,206.169303 L1.13686838e-13,206.169303 Z" id="phone_2_" stroke="#1485E0" stroke-width="4" fill="#FFFFFF"></path>
+                <g id="XMLID_498_" transform="translate(49.246380, 6.654916)" fill="#1485E0">
+                    <path d="M3.9929497,3.19435976 C4.79153963,3.19435976 5.32393293,3.72675305 5.32393293,4.52534299 C5.32393293,5.32393293 4.79153963,5.85632622 3.9929497,5.85632622 C3.19435976,5.85632622 2.66196646,5.32393293 2.66196646,4.52534299 C2.66196646,3.72675305 3.19435976,3.19435976 3.9929497,3.19435976 L3.9929497,3.19435976 Z M3.9929497,0.532393293 C1.7302782,0.532393293 0,2.26267149 0,4.52534299 C0,6.78801448 1.7302782,8.51829268 3.9929497,8.51829268 C6.25562119,8.51829268 7.98589939,6.78801448 7.98589939,4.52534299 C7.98589939,2.26267149 6.25562119,0.532393293 3.9929497,0.532393293 L3.9929497,0.532393293 L3.9929497,0.532393293 Z" id="XMLID_483_"></path>
+                </g>
+                <g id="XMLID_486_" transform="translate(15.971799, 7.985899)" fill="#1485E0">
+                    <path d="M2.66196646,2.26267149 C3.19435976,2.26267149 3.59365473,2.66196646 3.59365473,3.19435976 C3.59365473,3.72675305 3.19435976,4.12604802 2.66196646,4.12604802 C2.12957317,4.12604802 1.7302782,3.72675305 1.7302782,3.19435976 C1.7302782,2.66196646 2.12957317,2.26267149 2.66196646,2.26267149 L2.66196646,2.26267149 Z M2.66196646,0.532393293 C1.19788491,0.532393293 0,1.7302782 0,3.19435976 C0,4.65844131 1.19788491,5.85632622 2.66196646,5.85632622 C4.12604802,5.85632622 5.32393293,4.65844131 5.32393293,3.19435976 C5.32393293,1.7302782 4.12604802,0.532393293 2.66196646,0.532393293 L2.66196646,0.532393293 L2.66196646,0.532393293 Z" id="XMLID_480_"></path>
+                </g>
+                <g id="XMLID_27_" transform="translate(7.985899, 19.964748)">
+                    <g id="XMLID_29_-Clipped">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="XMLID_28_"></g>
+                        <g id="XMLID_29_" mask="url(#mask-2)">
+                            <rect id="XMLID_503_" fill="#C4E1F7" x="1.33098323" y="1.33098323" width="89.1758765" height="166.372904"></rect>
+                            <path d="M89.1758765,2.66196646 L89.1758765,166.372904 L2.66196646,166.372904 L2.66196646,2.66196646 L89.1758765,2.66196646 L89.1758765,2.66196646 Z M91.837843,0 L0,0 L0,169.03487 L91.837843,169.03487 L91.837843,0 L91.837843,0 Z" id="XMLID_488_" fill="#1485E0"></path>
+                        </g>
+                    </g>
+                    <g id="light_5_-Clipped">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="XMLID_28_"></g>
+                        <polygon id="light_5_" fill="#FFFFFF" opacity="0.44" mask="url(#mask-4)" points="19.9647485 170.365854 -138.422256 170.365854 -138.422256 -61.2252287 105.147675 -61.2252287"></polygon>
+                    </g>
+                </g>
+            </g>
+            <text id="Individual/private-S" font-family="BryantPro-Bold, Bryant Pro" font-size="24" font-weight="bold" line-spacing="40" fill="#00171F">
+                <tspan x="154" y="58">Individual/private </tspan>
+                <tspan x="348.376" y="58" font-family="BryantPro-Regular, Bryant Pro" font-weight="normal"> Sellers</tspan>
+                <tspan x="154" y="98">Poor </tspan>
+                <tspan x="211.6" y="98" font-family="BryantPro-Regular, Bryant Pro" font-weight="normal">bandwidth</tspan>
+                <tspan x="154" y="138">First </tspan>
+                <tspan x="209.968" y="138" font-family="BryantPro-Regular, Bryant Pro" font-weight="normal"> time users </tspan>
+                <tspan x="154" y="178">Distributed </tspan>
+                <tspan x="281.368" y="178" font-family="BryantPro-Regular, Bryant Pro" font-weight="normal"> across all over India </tspan>
+            </text>
+        </g>
+    </g>
+</svg>
