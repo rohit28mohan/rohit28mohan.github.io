@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Rohit Mohan is User Experience designer. My interest are interaction design, human computer interaction and others">
     <meta name="author" content="Rohit Mohan">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <link rel="shortcut icon" href="assets/ico/favicon.png" />
 
     <title>Quikr Cars Iterative design of Premium flow</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
 
     <!-- Custom styles for this template -->
   <link href="assets/css/main.css" rel="stylesheet">
   <link href="assets/css/inner.css" rel="stylesheet">
   <noscript id="deferred-styles">
-    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet" />
     <link href="assets/css/animation.css" rel="stylesheet">
     <link href="assets/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   </noscript>
@@ -114,9 +114,10 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 left">
           <h4>About the project</h4>
-          <p>The main objective was to improve <b>paid listing adoption</b> in order to increase Sell-side revenues.While we were simultaneously working on improving the Post Ad flow to increase overall <b>Listing Conversion</b>, multiple A/B Tests were carried out in parallel to optimize the Paid Listing funnel.<br>
-          Additionally, the new Paid Listing UX was expected to handle the <b>increase no. of Paid offerings</b> options that the product was now able to support (3 in total versus 2 at the beginning of the change).
-          The status quo iteration was having a simple comparison grid showcasing the relative advantages/disadvantages of the various paid listing options.</p> 
+          <p>The main aim was to boost the overall revenue for premium upsell flow. As we were scaling the <a href="/quikr-cars-pap.html" target="_blank">new seller's listing experience </a> the older msite didn't have  premium upsell flow.</p>
+          <p>As we had boosted the conversion rate for the listing if we can just add our premium upsell flow there would have been a <b>15% boost </b> in revenue by premium upsell flow.<br>
+          Later on, the new flow was expected to handle the <b>increase no. of paid offerings</b> options that the product was now able to support (3 in total versus 2 at the beginning of the change).
+          The status quo iteration was having a simple comparison grid showcasing the relative advantages/disadvantages of the various paid listing options.</p>
         </div>
       </div>
     </div><!-- /container -->
@@ -140,13 +141,14 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 left">
-          <h4>Design iterations</h4>
-          <p>The primary reason for the initial redesign was to add premium flow in the new responsive listing  flow. The current tabular design already had many usability and product issues as highlighted. Also some UX issues limiting to first time individual customers there:</p>
+          <h4>Assumptions</h4>
+          <p>We didn't want to have a revamp the overall design hence we initially added the older desktop flow to new flow and iterated over the design later. There was an increase in desktop conversion but not as per the expected results.
+            Before moving to the design process I evaluated the current design. The current tabular design already had many usability and product issues as highlighted. The design was more inclined for business/power users, also some UX issues limiting to first time individual customers there:</p>
           <ol class="pointers">
-            <li>Information hierarchy seemed broken, we needed to convince user about features and benfits rather than showing offerings</li>
+            <li><strong>Information hierarchy</strong> seemed broken, we needed to convince user about features and benefits rather than showing offerings</li>
             <li>Too much information was being shown</li>
             <li>The form had too much information which seemed confusing for individual customers</li>
-            <li>A lot of details about offerings were not relevant to cars &amp; bikes vertical</li>
+            <li>A lot of details about offerings were not relevant to cars &amp;amp; bikes vertical</li>
           </ol>
           <p>There were some iterations of the tabular design but they were eventually dropped. We then decided to test the current layout with a new design which highlighted the feature of the premium program in general and how we boost their listing.</p>
         </div>
@@ -166,13 +168,28 @@
       </div>
     </div><!-- /container -->
   </div>
+
+  <div id="g" style="background: #f8f8f8;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 left">
+          <h3 style="font-weight: bold;">Results</h3>
+          <p>Even though there was an increase in the overall conversion but the upside was not statistically significant. There was no actual conversion difference between the desktop design and the new mobile site flow started contributing (<i>in a much smaller way</i>).
+            We persisted with the new design as the current mobile site didn't have a premium flow and the new UI was working well, eventually we had to revisit the decision when new plans were added.</p>
+
+        </div>
+      </div>
+    </div><!-- /container -->
+  </div>
   
   <div id="dg" style="background:#EAEDEF; padding-bottom: 0">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 left">
           <h4>Further iterations</h4>
-          <p>Later iterations were needed to accomodate new plans which were slightly different that current design. Also the increase in conersions was that significant as the the control version didn't had the premium section.</p>
+          <p>Later iterations were needed to accomodate new plans which were slightly different that current design. Also we were trying different plans hence we needed a scalable solution.
+
+            Also the increase in conersions was that significant as the the control version didn't had the premium section.</p>
           <ol class="pointers">
             <li>The new plan called "Spotlight" was added that and highlight it in the same manner of premium </li>
             <li>We wanted to try to roll an earlier version or card based layout which we thought can be scalable to add more options.</li>
@@ -317,7 +334,7 @@
         var addStylesNode = document.getElementById("deferred-styles");
         var replacement = document.createElement("div");
         replacement.innerHTML = addStylesNode.textContent;
-        document.body.appendChild(replacement)
+        document.body.appendChild(replacement);
         addStylesNode.parentElement.removeChild(addStylesNode);
       };
       var raf = requestAnimationFrame || mozRequestAnimationFrame ||
