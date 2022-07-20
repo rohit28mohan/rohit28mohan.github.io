@@ -14,14 +14,25 @@
 
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
-    
+
     <noscript id="deferred-styles">
       <link href="assets/css/inner.css" rel="stylesheet">
       <link href="assets/css/animate.css" rel="stylesheet">
       <link href="assets/css/animation.css" rel="stylesheet">
       <link href="assets/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     </noscript>
-  
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59830290-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-59830290-1');
+    </script>
+
+
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -31,7 +42,7 @@
   </head>
 
   <body data-spy="scroll" data-offset="0" data-target="#theMenu">
-    
+
   <!-- Menu -->
   <nav class="menu" id="theMenu">
     <div class="menu-wrap">
@@ -47,13 +58,13 @@
       <a href="https://www.behance.net/rohit28mohan"><i class="fa fa-behance"></i></a>
       <a href="mailto:rohit28mohan@gmail.com"><i class="fa fa-envelope-o"></i></a>
     </div>
-    
+
     <!-- Menu button -->
     <div id="menuToggle"><i class="fa fa-bars"></i></div>
   </nav>
 
 
-  
+
   <!-- ========== HEADER SECTION ========== -->
   <section id="home" name="home"></section>
   <div id="headerwrap">
@@ -73,7 +84,7 @@
       </div>
     </div><!-- /container -->
   </div><!-- /headerwrap -->
-  
+
 
   <section id="works" name="works"></section>
   <div id="portfoliowrap">
@@ -131,7 +142,7 @@
               <a href="pro-free-slideshare.html"><span class="icn-more"></span>
               <img data-src="assets/img/slideshare-pro2free-thumb.jpg" alt="SlideShare PRO goes free"></a>
             </div><!-- /.icon-overlay -->
-            
+
             <figcaption class="bordered no-top-border">
               <div class="info">
                 <h3><a href="pro-free-slideshare.html">SlideShare PRO to free</a></h3>
@@ -164,7 +175,7 @@
               <a href="quikr-cars-premium.html" onclick="mixpanel.track('premium_upsell_thumb')"><span class="icn-more"></span>
               <img data-src="assets/img/premium-upsell-thumb.jpg" alt="Premium Upsell for Quikr Cars"></a>
             </div><!-- /.icon-overlay -->
-            
+
             <figcaption class="bordered no-top-border">
               <div class="info">
                 <h3><a href="quikr-cars-premium.html" onclick="mixpanel.track('premium_upsell_label')">Premium Upsell Flow</a></h3>
@@ -173,15 +184,15 @@
             </figcaption>
           </figure>
         </div>
-        
-        
+
+
         <div class="col-sm-4 port-space animated">
           <figure>
             <div class="icon-overlay icn-link">
               <a href="slideshare-emails.html" onclick="mixpanel.track('responsive emails image')"><span class="icn-more"></span>
               <img data-src="assets/img/slideshare-emails-thumb.jpg" alt="Responsive email framework for SlideShare"></a>
             </div><!-- /.icon-overlay -->
-            
+
             <figcaption class="bordered no-top-border">
               <div class="info">
                 <h3><a href="slideshare-emails.html" onclick="mixpanel.track('responsive emails')">Responsive emails</a></h3>
@@ -196,7 +207,7 @@
               <a href="year-review.html"><span class="icn-more"></span>
               <img data-src="assets/img/slideshare-review-thumb.jpg" alt="Slideshare year in review"></a>
             </div><!-- /.icon-overlay -->
-            
+
             <figcaption class="bordered no-top-border">
               <div class="info">
                 <h3><a href="year-review.html">Year in review</a></h3>
@@ -233,18 +244,18 @@
     <div class="container">
       <div class="row">
         <h3>About Me</h3>
-        
+
         <div class="col-lg-8 col-lg-offset-2">
           <p>I have over 7+ years of professional work experience in areas of <strong>Interaction design, User experience &amp; usability</strong>. Currently I lead the design team <strong class="nowrap">Quikr</strong> Cars vertical. Prior to that I was working at <strong class="nowrap">SlideShare, Linkedin</strong> as a User experience design in the business and engagement teams.</p>
           <p>I graduated from <strong>Dept. of Design, IIT Guwahati</strong> in 2010. During the part of my curriculum I have interned at places like Middlesex University, London under Prof. Bob Fields and Impelsys, Bangalore.</p>
           <br>
           <br>
         </div>
-        
+
       </div>
     </div><!-- /container -->
   </div><!-- /g -->
-  
+
   <!-- ========== Skills - GREY SECTION ========== -->
   <section id="skills" name="skills"></section>
   <div id="dg">
@@ -269,7 +280,7 @@
       </div>
     </div><!-- /container -->
   </div><!-- /g -->
-  
+
   <!-- ========== FOOTER SECTION ========== -->
   <section id="contact" name="contact"></section>
   <div id="f">
@@ -317,7 +328,7 @@
   mixpanel.init("7a4931a7e5d755c06d0a517b046261fc");</script><!-- end Mixpanel -->
     <script src="https://use.typekit.net/sys4vol.js"></script>
     <script defer>try{Typekit.load({ async: true });}catch(e){}</script>
-  
+
     <script async>
       var loadDeferredStyles = function() {
         var addStylesNode = document.getElementById("deferred-styles");
